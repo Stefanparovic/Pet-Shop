@@ -1,0 +1,48 @@
+/*=========  GLOBAL  =========*/
+
+/*=========  MAIN  =========*/
+.main{
+	padding: 10px;
+}
+article{
+	padding: 10px;
+}
+.blog-img{
+	width: 350px;
+}
+h2.text-right{
+	font-size: 76px;
+}
+/*==========  SIDEBAR  ==========*/
+.sidebar{
+	padding: 10px;
+}
+li{
+	list-style-type: none;
+}
+ul{
+	padding: 0;
+}
+/*==========  SINGLE  BLOG  ==========*/
+.single-blog p{
+	margin-top: 20px;
+}
+.single-blog h1{
+	margin: 10px 0 15px 0;
+	text-align: left;
+}
+.datum{
+	color: #9A9999;
+	text-align: right !important;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.single-blog img{
+	border-radius: 10px;
+}
+form textarea{
+	max-width: 100% !important;
+}
+input[type='text']{
+	margin-bottom: 10px;
+}

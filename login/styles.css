@@ -1,0 +1,85 @@
+form {
+    background: rgba(255,255,255,0.9);
+    width: 380px;
+    border: 1px solid teal;
+    border-radius: 2px;
+    margin: 0 auto;
+    visibility:hidden;
+}
+form p {
+    width:100%;
+    text-align: right;
+    padding: 2px 20px;
+    cursor:pointer;
+}
+
+
+form a {
+    color:whitesmoke;
+    text-shadow: 2px 1px 0px grey;
+}
+
+form img {
+    width:48px;
+    height:48px;
+    margin: 3px;
+}
+input {
+    width: 80%;
+    height: 30px;
+    border:1px solid silver;
+    border-radius: 5px;
+    padding: 2px 32px;
+    margin:5px;
+    background-repeat: no-repeat;
+    background-position: 3px;
+}
+input[name="email"] {
+    background-image: url("images/mail.png");
+}
+input[name="password"] {
+    background-image: url("images/pass.png");
+}
+input[type=submit] {
+    position:relative;
+    background: teal;
+    color:white;
+    cursor:pointer;
+}
+
+input[type=submit]:active {
+    top:3px;
+    box-shadow: 1px 2px 0px #bbb;
+}
+
+input[type=submit]:hover {
+    opacity: 0.7;
+}
+#buttonregister{
+  top:3px;
+  box-shadow: 1px 2px 0px #bbb;
+  position:relative;
+  background: teal;
+  color:white;
+  cursor:pointer;
+  opacity: 0.7;
+}
+#register {
+    height: 320px;
+    position:relative;
+    top:-260px;
+}
+#login {
+    height: 260px;
+}
+#overlay {
+    position:fixed;
+    top:0;
+    z-index: 25;
+    padding: 170px 0;
+    text-align: center;
+    width:100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+    visibility:hidden;
+}
